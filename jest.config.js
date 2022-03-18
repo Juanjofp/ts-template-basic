@@ -16,5 +16,8 @@ module.exports = {
         'jest-watch-typeahead/filename',
         'jest-watch-typeahead/testname'
     ],
-    setupFilesAfterEnv: ['./test/setup-test.ts']
+    setupFilesAfterEnv: ['./tests/setup-test.ts'],
+    moduleNameMapper: {
+        "^@src/(.*)$": "<rootDir>/src/$1"
+    }
 };
