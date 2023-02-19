@@ -1,7 +1,7 @@
 import { deleteMe } from './deleteme';
 
 async function main() {
-    console.log('Template Typescript v1.0', deleteMe());
+    console.log('Template Typescript v1.0.1', deleteMe());
 }
 
 main().catch(error => {
