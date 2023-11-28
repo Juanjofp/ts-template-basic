@@ -1,7 +1,8 @@
 {
   "include": [
     "./src/**/*.ts",
-    "./tests/**/*.ts"
+    "./tests/**/*.ts",
+    "tests/dayx.spects"
   ],
   "exclude": [
     "node_modules"

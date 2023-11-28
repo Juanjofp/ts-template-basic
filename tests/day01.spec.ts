@@ -1,10 +1,11 @@
-import { star1, star2 } from '@src/day1/day';
+import { star1, star2 } from '@src/day01/day';
 import {
     Instruction,
     calculateNextDirection,
     calculatePositions
-} from '@src/day1/paths';
-describe('Day 1', () => {
+} from '@src/day01/paths';
+
+describe('Day 01', () => {
     test('star 1', async () => {
         expect(star1()).toBe(271);
     });
